@@ -51,8 +51,12 @@ async function fetchPastBurns() {
       const burnedBn = ethers.BigNumber.from(args.value);
       lastCumulative = lastCumulative.add(burnedBn);
 
+      // Fetch block timestamp
+      const block = await provider.getBlock(blockNumber);
+      const timestamp = new Date(block.timestamp * 1000).toISOString(); // Convert to readable format
+
       const newBurn = {
-        timestamp: new Date().toISOString(),
+        timestamp, // Use actual block timestamp
         burnedAmount: ethers.utils.formatUnits(burnedBn, 18),
         accumulatedBurn: ethers.utils.formatUnits(lastCumulative, 18),
         transactionHash,

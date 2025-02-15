@@ -64,8 +64,12 @@ async function fetchDonations() {
 
       lastCumulative = lastCumulative.add(value);
 
+      // Fetch the timestamp of the block containing the transaction
+      const block = await provider.getBlock(blockNumber);
+      const timestamp = new Date(block.timestamp * 1000).toISOString(); // Convert to readable format
+
       const newDonation = {
-        timestamp: new Date().toISOString(),
+        timestamp, // Use block timestamp instead of new Date()
         from,
         amount: ethers.utils.formatUnits(value, 18),
         acummulatedAmount: ethers.utils.formatUnits(lastCumulative, 18),
