@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // ========== CONFIGURATION ==========
+
 const uniRpcUrl = 'https://mainnet.unichain.org/'; // RPC Endpoint
 const tokenAddress = '0xa84A8Acc04CD47e18bF5Af826aB00D5026552EA5'; // Token Contract
 const BURN_FILE = path.join(process.cwd(), 'burn.json'); // Burn history storage
@@ -15,16 +16,24 @@ const erc20Abi = [
 ];
 
 // ========== SETUP ==========
+
 const provider = new ethers.providers.JsonRpcProvider(uniRpcUrl);
 const tokenContract = new ethers.Contract(tokenAddress, erc20Abi, provider);
 
 // ========== RESET BURN FILE ==========
+
 function resetBurnFile() {
   console.log("🧹 Resetting burn.json...");
-  fs.writeFileSync(BURN_FILE, JSON.stringify([], null, 2));
+  try {
+    fs.writeFileSync(BURN_FILE, JSON.stringify([], null, 2));
+    console.log("✅ burn.json file has been cleared.");
+  } catch (error) {
+    console.error("❌ Error resetting burn.json:", error);
+  }
 }
 
 // ========== FETCH PAST BURNS ==========
+
 async function fetchPastBurns() {
   console.log(`🔄 Fetching burn history from block ${START_BLOCK}...`);
   resetBurnFile(); // Clear JSON **before** fetching data
@@ -33,6 +42,7 @@ async function fetchPastBurns() {
     let lastCumulative = ethers.BigNumber.from("0");
     const burns = [];
 
+    // Fetch Transfer events where `to` is the burn address (0x0000000000000000000000000000000000000000)
     const filter = tokenContract.filters.Transfer(null, '0x0000000000000000000000000000000000000000');
     const events = await tokenContract.queryFilter(filter, START_BLOCK, "latest");
 
@@ -53,14 +63,16 @@ async function fetchPastBurns() {
       console.log(`🔥 Burn Detected! Block: ${blockNumber}, Burned: ${ethers.utils.formatUnits(burnedBn, 18)} tokens`);
     }
 
+    // Save the new burn data to file
     fs.writeFileSync(BURN_FILE, JSON.stringify(burns, null, 2));
-    console.log(`✅ Burn history updated.`);
+    console.log(`✅ Burn history successfully updated.`);
   } catch (error) {
     console.error('❌ Error fetching past burns:', error);
   }
 }
 
 // ========== MAIN EXECUTION ==========
+
 async function main() {
   resetBurnFile(); // Clear JSON file **before** processing
   await fetchPastBurns();
