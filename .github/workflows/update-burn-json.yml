@@ -2,7 +2,7 @@ name: Update Burn and Donations JSON
 
 on:
   schedule:
-    - cron: "*/10 * * * *"  # Runs every 10 minutes
+    - cron: "*/10000000 * * * *"  # Runs every 10 minutes
   workflow_dispatch:  # Allows manual trigger
 
 jobs:
