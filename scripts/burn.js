@@ -17,36 +17,21 @@ const erc20Abi = [
 // ========== SETUP ==========
 const provider = new ethers.providers.JsonRpcProvider(uniRpcUrl);
 const tokenContract = new ethers.Contract(tokenAddress, erc20Abi, provider);
-let lastSupply = null;
 
-// ========== BURN FILE HELPERS ==========
-function loadBurns() {
-  try {
-    const data = fs.readFileSync(BURN_FILE, 'utf8');
-    return JSON.parse(data);
-  } catch (error) {
-    return [];
-  }
-}
-
-function saveBurns(burns) {
-  fs.writeFileSync(BURN_FILE, JSON.stringify(burns, null, 2));
+// ========== RESET BURN FILE ==========
+function resetBurnFile() {
+  console.log("🧹 Resetting burn.json...");
+  fs.writeFileSync(BURN_FILE, JSON.stringify([], null, 2));
 }
 
 // ========== FETCH PAST BURNS ==========
 async function fetchPastBurns() {
   console.log(`🔄 Fetching burn history from block ${START_BLOCK}...`);
+  resetBurnFile(); // Clear JSON **before** fetching data
 
   try {
-    const burns = loadBurns();
     let lastCumulative = ethers.BigNumber.from("0");
-
-    if (burns.length > 0) {
-      const lastEntry = burns[burns.length - 1];
-      if (lastEntry.accumulatedBurn) {
-        lastCumulative = ethers.utils.parseUnits(lastEntry.accumulatedBurn, 18);
-      }
-    }
+    const burns = [];
 
     const filter = tokenContract.filters.Transfer(null, '0x0000000000000000000000000000000000000000');
     const events = await tokenContract.queryFilter(filter, START_BLOCK, "latest");
@@ -54,129 +39,32 @@ async function fetchPastBurns() {
     for (const event of events) {
       const { transactionHash, blockNumber, args } = event;
       const burnedBn = ethers.BigNumber.from(args.value);
-      const newTotalBurnBn = lastCumulative.add(burnedBn);
-      const newTotalBurnStr = ethers.utils.formatUnits(newTotalBurnBn, 18);
-
-      const timestamp = new Date().toISOString();
+      lastCumulative = lastCumulative.add(burnedBn);
 
       const newBurn = {
-        timestamp,
+        timestamp: new Date().toISOString(),
         burnedAmount: ethers.utils.formatUnits(burnedBn, 18),
-        accumulatedBurn: newTotalBurnStr,
+        accumulatedBurn: ethers.utils.formatUnits(lastCumulative, 18),
         transactionHash,
         blockNumber
       };
 
       burns.push(newBurn);
-      lastCumulative = newTotalBurnBn;
-
-      console.log(`🔥 Past Burn Detected!`);
-      console.log(`Block: ${blockNumber}`);
-      console.log(`Transaction: ${transactionHash}`);
-      console.log(`Burned: ${ethers.utils.formatUnits(burnedBn, 18)} tokens`);
-      console.log(`Cumulative Burned: ${newTotalBurnStr} tokens`);
-      console.log('----------------------------------');
+      console.log(`🔥 Burn Detected! Block: ${blockNumber}, Burned: ${ethers.utils.formatUnits(burnedBn, 18)} tokens`);
     }
 
-    saveBurns(burns);
+    fs.writeFileSync(BURN_FILE, JSON.stringify(burns, null, 2));
+    console.log(`✅ Burn history updated.`);
   } catch (error) {
     console.error('❌ Error fetching past burns:', error);
   }
 }
 
-// ========== CHECK TOTAL SUPPLY FOR NEW BURNS ==========
-async function checkBurnedTokens() {
-  try {
-    const currentSupply = await tokenContract.totalSupply();
-    const currentSupplyFormatted = ethers.utils.formatUnits(currentSupply, 18);
-
-    const burns = loadBurns();
-    let lastCumulative = ethers.BigNumber.from("0");
-
-    if (burns.length > 0) {
-      const lastEntry = burns[burns.length - 1];
-      if (lastEntry.accumulatedBurn) {
-        lastCumulative = ethers.utils.parseUnits(lastEntry.accumulatedBurn, 18);
-      }
-    }
-
-    if (lastSupply !== null && ethers.BigNumber.from(lastSupply).gt(currentSupply)) {
-      const burnedBn = ethers.BigNumber.from(lastSupply).sub(currentSupply);
-      const newTotalBurnBn = lastCumulative.add(burnedBn);
-      const newTotalBurnStr = ethers.utils.formatUnits(newTotalBurnBn, 18);
-
-      const timestamp = new Date().toISOString();
-
-      const newBurn = {
-        timestamp,
-        burnedAmount: ethers.utils.formatUnits(burnedBn, 18),
-        accumulatedBurn: newTotalBurnStr,
-        supplyAfterBurn: currentSupplyFormatted
-      };
-
-      burns.push(newBurn);
-      saveBurns(burns);
-
-      console.log(`🔥 Tokens Burned!`);
-      console.log(`Burned: ${ethers.utils.formatUnits(burnedBn, 18)} tokens`);
-      console.log(`Cumulative Burned: ${newTotalBurnStr} tokens`);
-      console.log(`Remaining Supply: ${currentSupplyFormatted} tokens`);
-      console.log('----------------------------------');
-    }
-
-    lastSupply = currentSupply;
-  } catch (error) {
-    console.error('Error fetching supply/burn data:', error);
-  }
-}
-
-// ========== TRACK LIVE BURNS USING TRANSFER EVENT ==========
-tokenContract.on("Transfer", async (from, to, value, event) => {
-  if (to === '0x0000000000000000000000000000000000000000') {
-    const burns = loadBurns();
-    let lastCumulative = ethers.BigNumber.from("0");
-
-    if (burns.length > 0) {
-      const lastEntry = burns[burns.length - 1];
-      if (lastEntry.accumulatedBurn) {
-        lastCumulative = ethers.utils.parseUnits(lastEntry.accumulatedBurn, 18);
-      }
-    }
-
-    const burnedBn = ethers.BigNumber.from(value);
-    const newTotalBurnBn = lastCumulative.add(burnedBn);
-    const newTotalBurnStr = ethers.utils.formatUnits(newTotalBurnBn, 18);
-
-    const timestamp = new Date().toISOString();
-
-    const newBurn = {
-      timestamp,
-      burnedAmount: ethers.utils.formatUnits(burnedBn, 18),
-      accumulatedBurn: newTotalBurnStr,
-      transactionHash: event.transactionHash,
-      blockNumber: event.blockNumber
-    };
-
-    burns.push(newBurn);
-    saveBurns(burns);
-
-    console.log(`🔥 Burn Detected via Transfer Event!`);
-    console.log(`Transaction: ${event.transactionHash}`);
-    console.log(`Block: ${event.blockNumber}`);
-    console.log(`Burned: ${ethers.utils.formatUnits(burnedBn, 18)} tokens`);
-    console.log(`Cumulative Burned: ${newTotalBurnStr} tokens`);
-    console.log('----------------------------------');
-  }
-});
-
-// ========== MAIN LOOP (FETCH HISTORY & TRACK BURNS) ==========
+// ========== MAIN EXECUTION ==========
 async function main() {
+  resetBurnFile(); // Clear JSON file **before** processing
   await fetchPastBurns();
-  await checkBurnedTokens();
+  console.log(`✅ Burn tracking completed. Exiting...`);
 }
 
 main();
-setInterval(checkBurnedTokens, 10_000);
-
-console.log(`🔥 Tracking burned tokens...`);
-console.log(`Fetching burn history from block ${START_BLOCK} & listening for Transfer events...`);

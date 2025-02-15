@@ -1,671 +1,671 @@
 [
   {
-    "timestamp": "2025-02-14T20:10:57.622Z",
+    "timestamp": "2025-02-15T07:56:55.219Z",
     "burnedAmount": "873.033276391178137523",
     "accumulatedBurn": "873.033276391178137523",
     "transactionHash": "0xd1c770a2852c343df26a6abd0947269d6315d8ff32bdc43b123e30c4a28ebabf",
     "blockNumber": 8566742
   },
   {
-    "timestamp": "2025-02-14T20:10:57.627Z",
+    "timestamp": "2025-02-15T07:56:55.220Z",
     "burnedAmount": "387.903229009674797938",
     "accumulatedBurn": "1260.936505400852935461",
     "transactionHash": "0x49e9304d4be7f13af9e17deeb336fbc72336e14d4e4083f41a4259308c718b6c",
     "blockNumber": 8566872
   },
   {
-    "timestamp": "2025-02-14T20:10:57.632Z",
+    "timestamp": "2025-02-15T07:56:55.221Z",
     "burnedAmount": "873.175591457783416915",
     "accumulatedBurn": "2134.112096858636352376",
     "transactionHash": "0x87f32595c5645447311b1fd82eca3a187d110a42201a97ea1dbe6c006b90e1c8",
     "blockNumber": 8566998
   },
   {
-    "timestamp": "2025-02-14T20:10:57.635Z",
+    "timestamp": "2025-02-15T07:56:55.222Z",
     "burnedAmount": "1309.111701298969986828",
     "accumulatedBurn": "3443.223798157606339204",
     "transactionHash": "0xcdf60728d83baa081b4c3f98ae74af6c0bdd6f4cf81a1b6d1acd50010e5decb6",
     "blockNumber": 8567268
   },
   {
-    "timestamp": "2025-02-14T20:10:57.638Z",
+    "timestamp": "2025-02-15T07:56:55.222Z",
     "burnedAmount": "4358.066148829167276334",
     "accumulatedBurn": "7801.289946986773615538",
     "transactionHash": "0x178bf4ab10e276ae42c526bd30ff938d2e6bc1ad96dec75c7b1746bbec8843e3",
     "blockNumber": 8567436
   },
   {
-    "timestamp": "2025-02-14T20:10:57.642Z",
+    "timestamp": "2025-02-15T07:56:55.223Z",
     "burnedAmount": "253.330465620299429749",
     "accumulatedBurn": "8054.620412607073045287",
     "transactionHash": "0xe7bbfa64733861da49b6011235bda39fcb3a0d23ab401f56c32ecadb827bba90",
     "blockNumber": 8567704
   },
   {
-    "timestamp": "2025-02-14T20:10:57.646Z",
+    "timestamp": "2025-02-15T07:56:55.224Z",
     "burnedAmount": "233.139561879711228385",
     "accumulatedBurn": "8287.759974486784273672",
     "transactionHash": "0xcd45759e33f497e02b8fd2bf0bdc469af78c85b0559c10eb6270f43c38341324",
     "blockNumber": 8568220
   },
   {
-    "timestamp": "2025-02-14T20:10:57.651Z",
+    "timestamp": "2025-02-15T07:56:55.224Z",
     "burnedAmount": "4076.957698876044512662",
     "accumulatedBurn": "12364.717673362828786334",
     "transactionHash": "0xba00a798673a8a382744299e4f5ff99d8d90626bce9399d74ea3117ce6e0701a",
     "blockNumber": 8571725
   },
   {
-    "timestamp": "2025-02-14T20:10:57.654Z",
+    "timestamp": "2025-02-15T07:56:55.225Z",
     "burnedAmount": "1228.627190594043151011",
     "accumulatedBurn": "13593.344863956871937345",
     "transactionHash": "0x67cb28f67a9ef0f2055cc27f29e9b9c1dcb95cceffc6d1e00e167e6e532d89a3",
     "blockNumber": 8581052
   },
   {
-    "timestamp": "2025-02-14T20:10:57.657Z",
+    "timestamp": "2025-02-15T07:56:55.226Z",
     "burnedAmount": "2746.973677572829429312",
     "accumulatedBurn": "16340.318541529701366657",
     "transactionHash": "0x569f29fcbf8e7dd7d7ac98a2bcabe919025b0bef7509cf53f0594e5ac1178e37",
     "blockNumber": 8581059
   },
   {
-    "timestamp": "2025-02-14T20:10:57.660Z",
+    "timestamp": "2025-02-15T07:56:55.227Z",
     "burnedAmount": "69.296792422232238847",
     "accumulatedBurn": "16409.615333951933605504",
     "transactionHash": "0x6cbee375f65ff53981155ec300f6973eb04620c5d8131a5a469dd037821fbb42",
     "blockNumber": 8581063
   },
   {
-    "timestamp": "2025-02-14T20:10:57.663Z",
+    "timestamp": "2025-02-15T07:56:55.228Z",
     "burnedAmount": "320.717767704648083665",
     "accumulatedBurn": "16730.333101656581689169",
     "transactionHash": "0x71bb6d4bb2264443fb953d0e558a20f969c6dc6159c9a76f9adf89dc3f4a8776",
     "blockNumber": 8581067
   },
   {
-    "timestamp": "2025-02-14T20:10:57.666Z",
+    "timestamp": "2025-02-15T07:56:55.229Z",
     "burnedAmount": "1247.89918117219396777",
     "accumulatedBurn": "17978.232282828775656939",
     "transactionHash": "0x229cc622fe1c9b20aa9f850bffe8911ad932dc20470b804bce9dc22cfa30a497",
     "blockNumber": 8581539
   },
   {
-    "timestamp": "2025-02-14T20:10:57.669Z",
+    "timestamp": "2025-02-15T07:56:55.230Z",
     "burnedAmount": "23892.393747086600860031",
     "accumulatedBurn": "41870.62602991537651697",
     "transactionHash": "0xcfeb4c7abd4e4f9feb67ee50852e16763184c74c704ed96904a5a53eb0509c66",
     "blockNumber": 8581667
   },
   {
-    "timestamp": "2025-02-14T20:10:57.673Z",
+    "timestamp": "2025-02-15T07:56:55.231Z",
     "burnedAmount": "3827.481823622790684004",
     "accumulatedBurn": "45698.107853538167200974",
     "transactionHash": "0xa2ac97cad39c9f5277d5bd786b37f3f77775dd1afe782ffac44208108eceba3f",
     "blockNumber": 8582097
   },
   {
-    "timestamp": "2025-02-14T20:10:57.676Z",
+    "timestamp": "2025-02-15T07:56:55.231Z",
     "burnedAmount": "12498.964481847851932872",
     "accumulatedBurn": "58197.072335386019133846",
     "transactionHash": "0x357250f93a58e554e5f134dbb4f66a62e7e3a014bb631710875e43f80653ec45",
     "blockNumber": 8582501
   },
   {
-    "timestamp": "2025-02-14T20:10:57.679Z",
+    "timestamp": "2025-02-15T07:56:55.232Z",
     "burnedAmount": "793.636597283078064292",
     "accumulatedBurn": "58990.708932669097198138",
     "transactionHash": "0x3893aaefdd1e92a28b5522a2f2d27783b04f96ae0babdb424eb69a5d0a033716",
     "blockNumber": 8582506
   },
   {
-    "timestamp": "2025-02-14T20:10:57.682Z",
+    "timestamp": "2025-02-15T07:56:55.232Z",
     "burnedAmount": "636.228439447937123035",
     "accumulatedBurn": "59626.937372117034321173",
     "transactionHash": "0x98e94a523b7b1644a3c3f13c0de160bbc6fef1967f16a40cba17c12d324828e1",
     "blockNumber": 8582511
   },
   {
-    "timestamp": "2025-02-14T20:10:57.685Z",
+    "timestamp": "2025-02-15T07:56:55.232Z",
     "burnedAmount": "16558.837552184888776399",
     "accumulatedBurn": "76185.774924301923097572",
     "transactionHash": "0x7314b430726f81a59acf3720cb1f17795e32696a70258bf47158228936aab08a",
     "blockNumber": 8582626
   },
   {
-    "timestamp": "2025-02-14T20:10:57.688Z",
+    "timestamp": "2025-02-15T07:56:55.233Z",
     "burnedAmount": "263.780720484153138255",
     "accumulatedBurn": "76449.555644786076235827",
     "transactionHash": "0xe776e732f81103de982113c2d7a546f448d3ed64cae19f906aa7e2ab65a78ff7",
     "blockNumber": 8582751
   },
   {
-    "timestamp": "2025-02-14T20:10:57.691Z",
+    "timestamp": "2025-02-15T07:56:55.233Z",
     "burnedAmount": "21037.88441415690155102",
     "accumulatedBurn": "97487.440058942977786847",
     "transactionHash": "0x01d9af0bef63ce0dfa9c210809e77befd1c8243ac18a7d307c6bcfbd981b91da",
     "blockNumber": 8583027
   },
   {
-    "timestamp": "2025-02-14T20:10:57.694Z",
+    "timestamp": "2025-02-15T07:56:55.234Z",
     "burnedAmount": "25579.200299642400044614",
     "accumulatedBurn": "123066.640358585377831461",
     "transactionHash": "0x78933bd74a516219a36f4c281cbdb80030a7bd8e255dacb696f9a829c033ab01",
     "blockNumber": 8583088
   },
   {
-    "timestamp": "2025-02-14T20:10:57.697Z",
+    "timestamp": "2025-02-15T07:56:55.234Z",
     "burnedAmount": "2711.333471187257121846",
     "accumulatedBurn": "125777.973829772634953307",
     "transactionHash": "0x8fd8e5c49c7e10dd17af3c2ecb408ec65db03594bfa3e0ebc2dae599e3beb1d1",
     "blockNumber": 8583095
   },
   {
-    "timestamp": "2025-02-14T20:10:57.701Z",
+    "timestamp": "2025-02-15T07:56:55.234Z",
     "burnedAmount": "984.95565493480374952",
     "accumulatedBurn": "126762.929484707438702827",
     "transactionHash": "0x94866e9abf16118805f3faa1011974a976203255522ae1b382005dcea3180258",
     "blockNumber": 8583101
   },
   {
-    "timestamp": "2025-02-14T20:10:57.705Z",
+    "timestamp": "2025-02-15T07:56:55.235Z",
     "burnedAmount": "150.550767049729479212",
     "accumulatedBurn": "126913.480251757168182039",
     "transactionHash": "0x1155d0fdf294b4a7b69336e88df6f94b493c60f2a9310ef8091ac0524fd8d6cd",
     "blockNumber": 8583107
   },
   {
-    "timestamp": "2025-02-14T20:10:57.710Z",
+    "timestamp": "2025-02-15T07:56:55.236Z",
     "burnedAmount": "6820.388395809905057346",
     "accumulatedBurn": "133733.868647567073239385",
     "transactionHash": "0xe2b82b534facfb73887b72d479ac1e3dc6ea63e19084644261ecdaa185ba7b32",
     "blockNumber": 8583542
   },
   {
-    "timestamp": "2025-02-14T20:10:57.713Z",
+    "timestamp": "2025-02-15T07:56:55.236Z",
     "burnedAmount": "166.357110831649295748",
     "accumulatedBurn": "133900.225758398722535133",
     "transactionHash": "0x2924cc6b0d5772b3f73393549d6ad2147bf5b47b915c4859a81440737ee93448",
     "blockNumber": 8583546
   },
   {
-    "timestamp": "2025-02-14T20:10:57.715Z",
+    "timestamp": "2025-02-15T07:56:55.237Z",
     "burnedAmount": "1420.317051107624002618",
     "accumulatedBurn": "135320.542809506346537751",
     "transactionHash": "0x7fd9abd7ee9ce5133dc4f19b1367081fe9baff01ee797455b821f7bb992f0353",
     "blockNumber": 8583551
   },
   {
-    "timestamp": "2025-02-14T20:10:57.717Z",
+    "timestamp": "2025-02-15T07:56:55.238Z",
     "burnedAmount": "27.630840525569937376",
     "accumulatedBurn": "135348.173650031916475127",
     "transactionHash": "0x956021b8aa17ad6db92f781c9fb9fb16b80706ead06104632ef75b4767488c41",
     "blockNumber": 8583555
   },
   {
-    "timestamp": "2025-02-14T20:10:57.720Z",
+    "timestamp": "2025-02-15T07:56:55.238Z",
     "burnedAmount": "6108.522991481845516837",
     "accumulatedBurn": "141456.696641513761991964",
     "transactionHash": "0x514c5c4258b1ca64fb7b20cd87a4c7b5c08eb81b101ac7823b8a9a160d1bbaca",
     "blockNumber": 8583690
   },
   {
-    "timestamp": "2025-02-14T20:10:57.723Z",
+    "timestamp": "2025-02-15T07:56:55.239Z",
     "burnedAmount": "213.918034914277914286",
     "accumulatedBurn": "141670.61467642803990625",
     "transactionHash": "0x81bb29c290d8c86f2a27cd73a5e38ec952f9adc43517b55be8b2e6a2b381a73f",
     "blockNumber": 8583694
   },
   {
-    "timestamp": "2025-02-14T20:10:57.727Z",
+    "timestamp": "2025-02-15T07:56:55.239Z",
     "burnedAmount": "51.487686633524774825",
     "accumulatedBurn": "141722.102363061564681075",
     "transactionHash": "0x393aa1682431c6fc25753f1c0ef273047456e5601efcda8a9f1700b6c03c295a",
     "blockNumber": 8583698
   },
   {
-    "timestamp": "2025-02-14T20:10:57.730Z",
+    "timestamp": "2025-02-15T07:56:55.240Z",
     "burnedAmount": "464.114499373447760431",
     "accumulatedBurn": "142186.216862435012441506",
     "transactionHash": "0xcc8ab8fa83a2be312f04afa50772c37becd0975c6673989f5092fced85b8e2b9",
     "blockNumber": 8583703
   },
   {
-    "timestamp": "2025-02-14T20:10:57.731Z",
+    "timestamp": "2025-02-15T07:56:55.240Z",
     "burnedAmount": "15414.631016762169113675",
     "accumulatedBurn": "157600.847879197181555181",
     "transactionHash": "0xbed77c1ea4734333bd0a7850349eb6181d7c40dcc36ef4aab2dc0daccfdd37eb",
     "blockNumber": 8584007
   },
   {
-    "timestamp": "2025-02-14T20:10:57.734Z",
+    "timestamp": "2025-02-15T07:56:55.241Z",
     "burnedAmount": "31758.529091880684358726",
     "accumulatedBurn": "189359.376971077865913907",
     "transactionHash": "0xa1dcb18306a7473c019f3cda39063101164e80bda163c829925154430050fd84",
     "blockNumber": 8584026
   },
   {
-    "timestamp": "2025-02-14T20:10:57.736Z",
+    "timestamp": "2025-02-15T07:56:55.242Z",
     "burnedAmount": "48615.080692608865701927",
     "accumulatedBurn": "237974.457663686731615834",
     "transactionHash": "0x04898498af5b6f723349572c1fc3c822239fa6ee51614276d500a3b7a08f4f03",
     "blockNumber": 8584281
   },
   {
-    "timestamp": "2025-02-14T20:10:57.738Z",
+    "timestamp": "2025-02-15T07:56:55.242Z",
     "burnedAmount": "49516.77136394704337707",
     "accumulatedBurn": "287491.229027633774992904",
     "transactionHash": "0x5194798da89396a6fe3f20eda20f63229424ae89dd3c60ab61114214a3235688",
     "blockNumber": 8584536
   },
   {
-    "timestamp": "2025-02-14T20:10:57.742Z",
+    "timestamp": "2025-02-15T07:56:55.243Z",
     "burnedAmount": "422105.341976071507817333",
     "accumulatedBurn": "709596.571003705282810237",
     "transactionHash": "0x488d03141964f7d181b704fb9b629e416e915482df2631b4285250c2c36eb518",
     "blockNumber": 8584564
   },
   {
-    "timestamp": "2025-02-14T20:10:57.746Z",
+    "timestamp": "2025-02-15T07:56:55.244Z",
     "burnedAmount": "1489.876011698103966831",
     "accumulatedBurn": "711086.447015403386777068",
     "transactionHash": "0xef7e9d07a1c496e43989088c16f7769d324b0815732aa427411664666c14d50b",
     "blockNumber": 8584584
   },
   {
-    "timestamp": "2025-02-14T20:10:57.749Z",
+    "timestamp": "2025-02-15T07:56:55.244Z",
     "burnedAmount": "1183.759492134368293751",
     "accumulatedBurn": "712270.206507537755070819",
     "transactionHash": "0xfdbd52c7d3c281470dc51df72500167efbbec56c6c25298166cbe6ef7db72a65",
     "blockNumber": 8584644
   },
   {
-    "timestamp": "2025-02-14T20:10:57.753Z",
+    "timestamp": "2025-02-15T07:56:55.245Z",
     "burnedAmount": "3963.891997932211260303",
     "accumulatedBurn": "716234.098505469966331122",
     "transactionHash": "0x9129e9c6b2ea137e683632107ab985708fd1f921c31a4d0d1969fe3f2668d796",
     "blockNumber": 8584777
   },
   {
-    "timestamp": "2025-02-14T20:10:57.756Z",
+    "timestamp": "2025-02-15T07:56:55.245Z",
     "burnedAmount": "47272.27181356185866537",
     "accumulatedBurn": "763506.370319031824996492",
     "transactionHash": "0xf99d26d4099985e16a9a248a96e756ee646c8fe29fd118c85e268b3c9be69ad7",
     "blockNumber": 8584949
   },
   {
-    "timestamp": "2025-02-14T20:10:57.760Z",
+    "timestamp": "2025-02-15T07:56:55.246Z",
     "burnedAmount": "257.731532525827453577",
     "accumulatedBurn": "763764.101851557652450069",
     "transactionHash": "0x3c54455008309e0b120e67fb751314bcfa67e41b4ef878894cac6da05e726899",
     "blockNumber": 8585130
   },
   {
-    "timestamp": "2025-02-14T20:10:57.765Z",
+    "timestamp": "2025-02-15T07:56:55.247Z",
     "burnedAmount": "248.686009499105069263",
     "accumulatedBurn": "764012.787861056757519332",
     "transactionHash": "0xdf59093f8bcfc6c60fc13bd6a8e8971cec4ae58aab54d6dca5db5fa92ea324b9",
     "blockNumber": 8585411
   },
   {
-    "timestamp": "2025-02-14T20:10:57.770Z",
+    "timestamp": "2025-02-15T07:56:55.247Z",
     "burnedAmount": "2575.616997925097902104",
     "accumulatedBurn": "766588.404858981855421436",
     "transactionHash": "0xbe486c3de24cd8ed0a0ab7fa04b5e3f6f717911f42145fd4d72479ae6354eeb8",
     "blockNumber": 8585613
   },
   {
-    "timestamp": "2025-02-14T20:10:57.774Z",
+    "timestamp": "2025-02-15T07:56:55.247Z",
     "burnedAmount": "12838.806402816734002306",
     "accumulatedBurn": "779427.211261798589423742",
     "transactionHash": "0xe026c7b164f2e2c6cc9da2c384078fa1159bfdd599cf5f87ee50bc1b91594421",
     "blockNumber": 8585750
   },
   {
-    "timestamp": "2025-02-14T20:10:57.780Z",
+    "timestamp": "2025-02-15T07:56:55.248Z",
     "burnedAmount": "1152.292077635173099985",
     "accumulatedBurn": "780579.503339433762523727",
     "transactionHash": "0x9f2cfe37bf1a7290441f3fc052bc0a8a3102eae90b6d8c77f044b6f642ab706f",
     "blockNumber": 8586204
   },
   {
-    "timestamp": "2025-02-14T20:10:57.783Z",
+    "timestamp": "2025-02-15T07:56:55.248Z",
     "burnedAmount": "39.039308782745099041",
     "accumulatedBurn": "780618.542648216507622768",
     "transactionHash": "0x05bc4f0cf4f98edbcb0adc00f35e81c993ecdaa25ca459fd6a55bb64ff705804",
     "blockNumber": 8586343
   },
   {
-    "timestamp": "2025-02-14T20:10:57.786Z",
+    "timestamp": "2025-02-15T07:56:55.249Z",
     "burnedAmount": "15470.541937728699803493",
     "accumulatedBurn": "796089.084585945207426261",
     "transactionHash": "0x1e40b39fee12a4ebddf4abf9f208a75cfb7da04ac6404ccf1e9d467ab4562d35",
     "blockNumber": 8586463
   },
   {
-    "timestamp": "2025-02-14T20:10:57.789Z",
+    "timestamp": "2025-02-15T07:56:55.250Z",
     "burnedAmount": "526.50582724614218183",
     "accumulatedBurn": "796615.590413191349608091",
     "transactionHash": "0x589244fbbb43e73ce3065c0aef831297b5ae05bc9d9400ea6985387741d26115",
     "blockNumber": 8586929
   },
   {
-    "timestamp": "2025-02-14T20:10:57.794Z",
+    "timestamp": "2025-02-15T07:56:55.250Z",
     "burnedAmount": "1073.40648646995810145",
     "accumulatedBurn": "797688.996899661307709541",
     "transactionHash": "0xa03a7bbadad671d4bd68f9357894628b4af26263213f3bdf12d43e0acd093324",
     "blockNumber": 8586989
   },
   {
-    "timestamp": "2025-02-14T20:10:57.798Z",
+    "timestamp": "2025-02-15T07:56:55.251Z",
     "burnedAmount": "29402.914219868965323128",
     "accumulatedBurn": "827091.911119530273032669",
     "transactionHash": "0xebb5c0fbdf6f358dbd5199db28e867a70a2ac145faeedab74a24393b1447ddf0",
     "blockNumber": 8588279
   },
   {
-    "timestamp": "2025-02-14T20:10:57.801Z",
+    "timestamp": "2025-02-15T07:56:55.251Z",
     "burnedAmount": "143.934407323779449902",
     "accumulatedBurn": "827235.845526854052482571",
     "transactionHash": "0xdc135d1575c23f760485c175fbce85deca7d701d8b7feaf5800e3a59d0f4a7b5",
     "blockNumber": 8588283
   },
   {
-    "timestamp": "2025-02-14T20:10:57.803Z",
+    "timestamp": "2025-02-15T07:56:55.252Z",
     "burnedAmount": "449.597673408054541594",
     "accumulatedBurn": "827685.443200262107024165",
     "transactionHash": "0xe2de4f73a70fa56556c810dac2d13bfe0b867c562f4ded435b1c574c6203228e",
     "blockNumber": 8588290
   },
   {
-    "timestamp": "2025-02-14T20:10:57.806Z",
+    "timestamp": "2025-02-15T07:56:55.252Z",
     "burnedAmount": "383.17844208760998717",
     "accumulatedBurn": "828068.621642349717011335",
     "transactionHash": "0x5334f3edb49df9adee3ef64148f76aa8028d00e173513c53a1749583f74f7de2",
     "blockNumber": 8588294
   },
   {
-    "timestamp": "2025-02-14T20:10:57.811Z",
+    "timestamp": "2025-02-15T07:56:55.253Z",
     "burnedAmount": "2837.85229236486638961",
     "accumulatedBurn": "830906.473934714583400945",
     "transactionHash": "0x6b2f185a3e77e894b71492914bd47d2d047225629e56b7574e35f32966e6902d",
     "blockNumber": 8588298
   },
   {
-    "timestamp": "2025-02-14T20:10:57.814Z",
+    "timestamp": "2025-02-15T07:56:55.254Z",
     "burnedAmount": "1118.233640304304085438",
     "accumulatedBurn": "832024.707575018887486383",
     "transactionHash": "0x49bbe0ab741fe9c637b2f203fc4bb53fd1c00decd539406ff24e790980578c89",
     "blockNumber": 8589161
   },
   {
-    "timestamp": "2025-02-14T20:10:57.816Z",
+    "timestamp": "2025-02-15T07:56:55.254Z",
     "burnedAmount": "89.722868868272086604",
     "accumulatedBurn": "832114.430443887159572987",
     "transactionHash": "0xc13e9b72efbc489094b39308d8f9e6a454b9e3b4cb0d993f1ba609ab4bb3cd91",
     "blockNumber": 8590772
   },
   {
-    "timestamp": "2025-02-14T20:10:57.819Z",
+    "timestamp": "2025-02-15T07:56:55.255Z",
     "burnedAmount": "300.062243231222046261",
     "accumulatedBurn": "832414.492687118381619248",
     "transactionHash": "0xde0d8a3553bc00020d39b640c037b2e650e80213d38b2de013152599a76d7b7d",
     "blockNumber": 8590961
   },
   {
-    "timestamp": "2025-02-14T20:10:57.822Z",
+    "timestamp": "2025-02-15T07:56:55.255Z",
     "burnedAmount": "150.018739837579709594",
     "accumulatedBurn": "832564.511426955961328842",
     "transactionHash": "0xcdadf09a0fc2c046ab0e18e57120d4fa794e9d52d1702a0f2dc4e7c3bdb257b5",
     "blockNumber": 8592681
   },
   {
-    "timestamp": "2025-02-14T20:10:57.826Z",
+    "timestamp": "2025-02-15T07:56:55.256Z",
     "burnedAmount": "44.901496529553056479",
     "accumulatedBurn": "832609.412923485514385321",
     "transactionHash": "0xbf20fe65f3bf17d4a87338fe9d21f330669c61f14dbf9e323d38d9dc41522d57",
     "blockNumber": 8593353
   },
   {
-    "timestamp": "2025-02-14T20:10:57.830Z",
+    "timestamp": "2025-02-15T07:56:55.256Z",
     "burnedAmount": "15.001172983743928542",
     "accumulatedBurn": "832624.414096469258313863",
     "transactionHash": "0xc5459e561996ce983323dc5e893104903e5a3ca3124472a3ed42758bf6acd103",
     "blockNumber": 8593529
   },
   {
-    "timestamp": "2025-02-14T20:10:57.834Z",
+    "timestamp": "2025-02-15T07:56:55.257Z",
     "burnedAmount": "60.003866609762168521",
     "accumulatedBurn": "832684.417963079020482384",
     "transactionHash": "0x0dc70b1a4b53c9d2257d6f705b7a51ff0eddc320252e2b1a40dda1605be1836f",
     "blockNumber": 8593830
   },
   {
-    "timestamp": "2025-02-14T20:10:57.836Z",
+    "timestamp": "2025-02-15T07:56:55.257Z",
     "burnedAmount": "389.60390507529076119",
     "accumulatedBurn": "833074.021868154311243574",
     "transactionHash": "0x25ba3b84c055638f01c83910eab3b5b4247f4fd554191501a452f67ac30ff6ee",
     "blockNumber": 8594286
   },
   {
-    "timestamp": "2025-02-14T20:10:57.839Z",
+    "timestamp": "2025-02-15T07:56:55.258Z",
     "burnedAmount": "903.465103185672834181",
     "accumulatedBurn": "833977.486971339984077755",
     "transactionHash": "0xf31f282ae0e408d02ae900a1573c32aaa02e7be3d468f79d92ce5d83e143cb56",
     "blockNumber": 8595549
   },
   {
-    "timestamp": "2025-02-14T20:10:57.843Z",
+    "timestamp": "2025-02-15T07:56:55.259Z",
     "burnedAmount": "30.0",
     "accumulatedBurn": "834007.486971339984077755",
     "transactionHash": "0xb8d390b8eca2e066d31269b95781a8bffb3dd869475d01de46199e3cd75ddfe0",
     "blockNumber": 8595982
   },
   {
-    "timestamp": "2025-02-14T20:10:57.847Z",
+    "timestamp": "2025-02-15T07:56:55.259Z",
     "burnedAmount": "1171.970096101262594414",
     "accumulatedBurn": "835179.457067441246672169",
     "transactionHash": "0xc9dc89e82128d62f173e0e9d3f578e05fbe642d5edf8cc556db91062ab070106",
     "blockNumber": 8596812
   },
   {
-    "timestamp": "2025-02-14T20:10:57.851Z",
+    "timestamp": "2025-02-15T07:56:55.259Z",
     "burnedAmount": "60.195420199814813618",
     "accumulatedBurn": "835239.652487641061485787",
     "transactionHash": "0x62d83e3fb9a4d0f97333c9e816d944fef40d4a6991bcdb6320ae341f1b16aba8",
     "blockNumber": 8597341
   },
   {
-    "timestamp": "2025-02-14T20:10:57.854Z",
+    "timestamp": "2025-02-15T07:56:55.260Z",
     "burnedAmount": "52.669904270307188071",
     "accumulatedBurn": "835292.322391911368673858",
     "transactionHash": "0xa870efd3a9e8d7d6fd85872b4bdeffb87ca15891e22cb8dc86acf7d0c6cbab96",
     "blockNumber": 8597505
   },
   {
-    "timestamp": "2025-02-14T20:10:57.857Z",
+    "timestamp": "2025-02-15T07:56:55.261Z",
     "burnedAmount": "22479.693411766231496385",
     "accumulatedBurn": "857772.015803677600170243",
     "transactionHash": "0xe429f71bfc31513674508cfd4851e11825b4cad8f1b363c0fa5067496a75f9b9",
     "blockNumber": 8597629
   },
   {
-    "timestamp": "2025-02-14T20:10:57.863Z",
+    "timestamp": "2025-02-15T07:56:55.261Z",
     "burnedAmount": "2844.775339497243434356",
     "accumulatedBurn": "860616.791143174843604599",
     "transactionHash": "0xac6870b7acd39be14d2b61344bbbdcd1025bc0170d22b40ca5d9bd47d1becbe5",
     "blockNumber": 8599080
   },
   {
-    "timestamp": "2025-02-14T20:10:57.865Z",
+    "timestamp": "2025-02-15T07:56:55.262Z",
     "burnedAmount": "1494.455800632552956696",
     "accumulatedBurn": "862111.246943807396561295",
     "transactionHash": "0x3cb38bfe9ef994a45719cd1a8d0f1ee83ae4a6db7f4bdef6347f6624f66075fc",
     "blockNumber": 8599388
   },
   {
-    "timestamp": "2025-02-14T20:10:57.868Z",
+    "timestamp": "2025-02-15T07:56:55.262Z",
     "burnedAmount": "11182.317073996554279767",
     "accumulatedBurn": "873293.564017803950841062",
     "transactionHash": "0x32370b9ed78d0a5bb5a56d1b41f282b44bf1f44720a0127abddf6e2731d91d57",
     "blockNumber": 8599774
   },
   {
-    "timestamp": "2025-02-14T20:10:57.870Z",
+    "timestamp": "2025-02-15T07:56:55.263Z",
     "burnedAmount": "476.090102549652504196",
     "accumulatedBurn": "873769.654120353603345258",
     "transactionHash": "0xa1de03aebf5f55c423ccce7681039b9e9f7c9d6f4792a502af1c4f1e1bed80e0",
     "blockNumber": 8600030
   },
   {
-    "timestamp": "2025-02-14T20:10:57.873Z",
+    "timestamp": "2025-02-15T07:56:55.264Z",
     "burnedAmount": "12085.780010834315073157",
     "accumulatedBurn": "885855.434131187918418415",
     "transactionHash": "0x13066f32608d7a3c32133eb0e2da225bac23b9ccb2496f3136b7cd63d176bcf6",
     "blockNumber": 8600250
   },
   {
-    "timestamp": "2025-02-14T20:10:57.877Z",
+    "timestamp": "2025-02-15T07:56:55.264Z",
     "burnedAmount": "29.861908139368096581",
     "accumulatedBurn": "885885.296039327286514996",
     "transactionHash": "0x63a8d5f77ab342565fc419b9913309b80e8ea2c72a41a823b61ddd3c281b9b2a",
     "blockNumber": 8600480
   },
   {
-    "timestamp": "2025-02-14T20:10:57.879Z",
+    "timestamp": "2025-02-15T07:56:55.265Z",
     "burnedAmount": "1138.512844257753597445",
     "accumulatedBurn": "887023.808883585040112441",
     "transactionHash": "0x09a1567adf3ee6c752f04e6f4a9b0c370a7cf161a32fd545991f033e2c985cd6",
     "blockNumber": 8602253
   },
   {
-    "timestamp": "2025-02-14T20:10:57.882Z",
+    "timestamp": "2025-02-15T07:56:55.265Z",
     "burnedAmount": "59.022231133196975905",
     "accumulatedBurn": "887082.831114718237088346",
     "transactionHash": "0xb245eddc3c8fd2bec9c680ea931016ba60462f1af5a8515e96d962fd54a832d4",
     "blockNumber": 8602887
   },
   {
-    "timestamp": "2025-02-14T20:10:57.884Z",
+    "timestamp": "2025-02-15T07:56:55.266Z",
     "burnedAmount": "295.440816292749706859",
     "accumulatedBurn": "887378.271931010986795205",
     "transactionHash": "0x61866cd072ff61a2c88d99d38eb98de39e347d15a8ea7c966d51895487e4c0c1",
     "blockNumber": 8603157
   },
   {
-    "timestamp": "2025-02-14T20:10:57.887Z",
+    "timestamp": "2025-02-15T07:56:55.266Z",
     "burnedAmount": "773.944930076431419336",
     "accumulatedBurn": "888152.216861087418214541",
     "transactionHash": "0x501f3234588ec1f3528e7352bf7960738ef9adfcd2a43cafaf8004877c5b7c56",
     "blockNumber": 8604839
   },
   {
-    "timestamp": "2025-02-14T20:10:57.891Z",
+    "timestamp": "2025-02-15T07:56:55.266Z",
     "burnedAmount": "15.113933151601109042",
     "accumulatedBurn": "888167.330794239019323583",
     "transactionHash": "0x538bc1f29025ebc1c997b583e86ae18a1a09a19140b9c3a577ead06a96772821",
     "blockNumber": 8604874
   },
   {
-    "timestamp": "2025-02-14T20:10:57.895Z",
+    "timestamp": "2025-02-15T07:56:55.266Z",
     "burnedAmount": "1439.319108676258104255",
     "accumulatedBurn": "889606.649902915277427838",
     "transactionHash": "0x22e91fb7ef48b0139513359060c8174951886d4af1800eae1bcefaedf2489a5e",
     "blockNumber": 8604995
   },
   {
-    "timestamp": "2025-02-14T20:10:57.898Z",
+    "timestamp": "2025-02-15T07:56:55.267Z",
     "burnedAmount": "34.511368312100019433",
     "accumulatedBurn": "889641.161271227377447271",
     "transactionHash": "0xaf0aa4128731d5a39cf4a81d676f5680a499069b7e23526b4fef0e46860bc145",
     "blockNumber": 8605003
   },
   {
-    "timestamp": "2025-02-14T20:10:57.901Z",
+    "timestamp": "2025-02-15T07:56:55.267Z",
     "burnedAmount": "11578.300695528927999373",
     "accumulatedBurn": "901219.461966756305446644",
     "transactionHash": "0x1f55e3d4b966cfffbded714f14a50c6e6a16195431686b4839708d08ae41c060",
     "blockNumber": 8607091
   },
   {
-    "timestamp": "2025-02-14T20:10:57.904Z",
+    "timestamp": "2025-02-15T07:56:55.267Z",
     "burnedAmount": "1.516259446506652735",
     "accumulatedBurn": "901220.978226202812099379",
     "transactionHash": "0x7268c6d5e1e3cfc6243954845f2ee60bef68b07dc1d62f15c1efd187e5a0b82a",
     "blockNumber": 8607099
   },
   {
-    "timestamp": "2025-02-14T20:10:57.907Z",
+    "timestamp": "2025-02-15T07:56:55.268Z",
     "burnedAmount": "15.162548337119191106",
     "accumulatedBurn": "901236.140774539931290485",
     "transactionHash": "0x6942537a571a0313eaf77626bb4be7fb32f6202407289d01d38572e1b02f0728",
     "blockNumber": 8607667
   },
   {
-    "timestamp": "2025-02-14T20:10:57.912Z",
+    "timestamp": "2025-02-15T07:56:55.268Z",
     "burnedAmount": "1167.951300973854559285",
     "accumulatedBurn": "902404.09207551378584977",
     "transactionHash": "0x1cd8817c607ceb59820dfb070b0db89261eb1fc275d5bb3aca6b29c7ac9031b4",
     "blockNumber": 8607963
   },
   {
-    "timestamp": "2025-02-14T20:10:57.915Z",
+    "timestamp": "2025-02-15T07:56:55.269Z",
     "burnedAmount": "11504.300147799653083739",
     "accumulatedBurn": "913908.392223313438933509",
     "transactionHash": "0x991f8d580c9e1c66cd218ca9e685bf1d7d7e134e2c58c828826ba32d9686ba63",
     "blockNumber": 8608172
   },
   {
-    "timestamp": "2025-02-14T20:10:57.918Z",
+    "timestamp": "2025-02-15T07:56:55.269Z",
     "burnedAmount": "755.169769898720579468",
     "accumulatedBurn": "914663.561993212159512977",
     "transactionHash": "0xddf6cfb3aa7116adb5f1b1bdc7c7cb86f887707e43778295643b1d346fd40495",
     "blockNumber": 8608217
   },
   {
-    "timestamp": "2025-02-14T20:10:57.921Z",
+    "timestamp": "2025-02-15T07:56:55.270Z",
     "burnedAmount": "7589.396049958518088264",
     "accumulatedBurn": "922252.958043170677601241",
     "transactionHash": "0xef9088f51c8b8986e90c4a373a3e0f72d0ee6fd6a399b1c75aa7d518df40f020",
     "blockNumber": 8609291
   },
   {
-    "timestamp": "2025-02-14T20:10:57.925Z",
+    "timestamp": "2025-02-15T07:56:55.270Z",
     "burnedAmount": "151.57386570507728862",
     "accumulatedBurn": "922404.531908875754889861",
     "transactionHash": "0xca63a0df20e47113356a07fa8db301edf15603ffa34b3d0f886333d011f33085",
     "blockNumber": 8610053
   },
   {
-    "timestamp": "2025-02-14T20:10:57.928Z",
+    "timestamp": "2025-02-15T07:56:55.270Z",
     "burnedAmount": "74751.34409807179706842",
     "accumulatedBurn": "997155.876006947551958281",
     "transactionHash": "0x4d142810e8b1c29e2042d6153da204ea43818ceb30b308ce962b1a51c5199c35",
     "blockNumber": 8611091
   },
   {
-    "timestamp": "2025-02-14T20:10:57.932Z",
+    "timestamp": "2025-02-15T07:56:55.271Z",
     "burnedAmount": "2500.88391989781648173",
     "accumulatedBurn": "999656.759926845368440011",
     "transactionHash": "0x1426060e031b49a805feb0b8f42ea3dcf3040f48f0cac264761b012871736ba4",
     "blockNumber": 8611147
   },
   {
-    "timestamp": "2025-02-14T20:10:57.935Z",
+    "timestamp": "2025-02-15T07:56:55.271Z",
     "burnedAmount": "67.817680552117906422",
     "accumulatedBurn": "999724.577607397486346433",
     "transactionHash": "0x5e6bef8bfe939cd7127f9565a38cb9d5b9bf12b1271ee32f8aba1f1e78b59e08",
     "blockNumber": 8612048
   },
   {
-    "timestamp": "2025-02-14T20:10:57.938Z",
+    "timestamp": "2025-02-15T07:56:55.272Z",
     "burnedAmount": "225.165838993732568202",
     "accumulatedBurn": "999949.743446391218914635",
     "transactionHash": "0x1668b0810e869d73a8b1f74633c2848d0e2c4de1c8c69f4b0534bbb6a136b593",
     "blockNumber": 8612477
   },
   {
-    "timestamp": "2025-02-14T20:10:57.942Z",
+    "timestamp": "2025-02-15T07:56:55.272Z",
     "burnedAmount": "50.256553608781085365",
     "accumulatedBurn": "1000000.0",
     "transactionHash": "0x0bfe9e3ef83e438a7a3e3eefa71a1433e8aa61793826c31a2a4068659657d0e6",
