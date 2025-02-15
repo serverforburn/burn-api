@@ -1,4 +1,5 @@
-sddsname: Update Burn JSON
+name: Update Burn JSON
+
 
 on:
   schedule:
