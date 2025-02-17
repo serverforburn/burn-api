@@ -34,5 +34,41 @@
     "transactionHash": "0x0ce8eed537861947019d6ebeb6d36aa4d24afd844c80a83cd737e8478ce0714f",
     "blockNumber": 9055952,
     "logIndex": 2
+  },
+  {
+    "timestamp": "2025-02-17T16:14:43.000Z",
+    "eventType": "Deposit",
+    "amount": "500.0",
+    "accumulatedStakes": "522.0",
+    "transactionHash": "0x1026784044d98da69d8ddfbc9c5519f0afe6d76209466e8feb6d1c9acb1a4463",
+    "blockNumber": 9060524,
+    "logIndex": 2
+  },
+  {
+    "timestamp": "2025-02-17T16:16:26.000Z",
+    "eventType": "Withdraw",
+    "amount": "1.0",
+    "accumulatedStakes": "521.0",
+    "transactionHash": "0xed4054f4518334ba9b74a79db04702d59cb79a79e3a97db9db16b9a633488f37",
+    "blockNumber": 9060627,
+    "logIndex": 4
+  },
+  {
+    "timestamp": "2025-02-17T16:16:33.000Z",
+    "eventType": "Withdraw",
+    "amount": "45.85",
+    "accumulatedStakes": "475.15",
+    "transactionHash": "0xe720b519f0a42bb78ac13ab90c4b42ebff394a109299c64268c56041e4607fd0",
+    "blockNumber": 9060634,
+    "logIndex": 5
+  },
+  {
+    "timestamp": "2025-02-17T16:20:53.000Z",
+    "eventType": "Deposit",
+    "amount": "1.0",
+    "accumulatedStakes": "476.15",
+    "transactionHash": "0xb393ce62eb3e8850f32bdd9107192f4dd4fd54ebd2bbc3c553a779a509c879c0",
+    "blockNumber": 9060894,
+    "logIndex": 2
   }
 ]
