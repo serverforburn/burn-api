@@ -5,7 +5,7 @@ const path = require('path');
 // ========== CONFIGURATION ==========
 
 const uniRpcUrl = 'https://mainnet.unichain.org/'; // RPC Endpoint
-const STAKING_CONTRACT_ADDRESS = '0xc7450C60c2A3076b6F9833749EFcd53C6a3347B1';
+const STAKING_CONTRACT_ADDRESS = '0xEC63DA6B4a32efF80Ea2Db048eb5D0d300e6fAc6';
 const STAKES_FILE = path.join(process.cwd(), 'staking.json'); // Staking history storage
 const START_BLOCK = 8533484; // Block to start scanning from
 
