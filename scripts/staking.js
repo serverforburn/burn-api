@@ -5,14 +5,14 @@ const path = require('path');
 // ========== CONFIGURATION ==========
 
 const uniRpcUrl = 'https://mainnet.unichain.org/'; // RPC Endpoint
-const STAKING_CONTRACT_ADDRESS = '0x5558e6d3ADD1A58b5F6cE5B7931838C96F36985d';
+const STAKING_CONTRACT_ADDRESS = '0xc7450C60c2A3076b6F9833749EFcd53C6a3347B1';
 const STAKES_FILE = path.join(process.cwd(), 'staking.json'); // Staking history storage
 const START_BLOCK = 8533484; // Block to start scanning from
 
-// Staking Contract ABI with Deposit and Withdraw events
+// Staking Contract ABI with updated Withdraw event
 const stakingAbi = [
   'event Deposit(address indexed user, uint256 amount, uint256 lockTierIdx, uint256 nonce, uint256 burntAmount)',
-  'event Withdraw(address indexed user, uint256 amount, uint256 penalty)'
+  'event Withdraw(address indexed user, uint256 amount, uint256 amountPostPenalty, uint256 penalty)' // UPDATED EVENT
 ];
 
 // ========== SETUP ==========
@@ -77,8 +77,8 @@ async function fetchPastStakes() {
         accumulatedStakes = accumulatedStakes.add(amount);
       } else if (eventName === "Withdraw") {
         eventType = "Withdraw";
-        // args: [ user, amount, penalty ]
-        amount = args.amount;
+        // UPDATED: args: [ user, amount, amountPostPenalty, penalty ]
+        amount = args.amount; // Only using "amount" as before, ignoring amountPostPenalty & penalty
         accumulatedStakes = accumulatedStakes.sub(amount);
       }
 
