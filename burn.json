@@ -831,5 +831,26 @@
     "accumulatedBurn": "1003566.00000000000000002",
     "transactionHash": "0xe119c8b699d7c10e52763c50588f0400e639928072ee431ba4a1483920bbad59",
     "blockNumber": 9080125
+  },
+  {
+    "timestamp": "2025-02-17T22:12:32.000Z",
+    "burnedAmount": "480000.0",
+    "accumulatedBurn": "1483566.00000000000000002",
+    "transactionHash": "0xa1415b863baac34a4e17b04097a623317b66f6db531fa14384bb7db8e5a97f3e",
+    "blockNumber": 9081993
+  },
+  {
+    "timestamp": "2025-02-17T22:14:40.000Z",
+    "burnedAmount": "400000.0",
+    "accumulatedBurn": "1883566.00000000000000002",
+    "transactionHash": "0x6623c9a8a2ede3709eec26281df3c1f0fc0c8b084e9e45964c0a6f4d69c838b4",
+    "blockNumber": 9082121
+  },
+  {
+    "timestamp": "2025-02-17T22:15:39.000Z",
+    "burnedAmount": "400000.0",
+    "accumulatedBurn": "2283566.00000000000000002",
+    "transactionHash": "0x4b8f5e0914a812662496e1e0b36c4f7d97ecded237adaec998c6c74bf40eed76",
+    "blockNumber": 9082180
   }
 ]
