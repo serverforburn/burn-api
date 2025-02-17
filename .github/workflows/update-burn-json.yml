@@ -1,4 +1,4 @@
-name: Update Burn and Donations JSON
+name: Update Burn, Donations and Staking JSON
 
 on:
   schedule:
@@ -26,10 +26,13 @@ jobs:
       - name: Run Donation Script
         run: node scripts/donation.js
 
+      - name: Run Staking Script
+        run: node scripts/staking.js
+
       - name: Commit and Push Changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add burn.json donations.json
-          git commit -m "Update burn.json and donations.json [Automated]" || echo "No changes to commit"
+          git add burn.json donations.json staking.json
+          git commit -m "Update burn.json, donations.json and staking.json [Automated]" || echo "No changes to commit"
           git push
