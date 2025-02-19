@@ -254,5 +254,13 @@
     "acummulatedAmount": "2781263.908779737594960199",
     "transactionHash": "0xff846fd93dacf7e7f614a98427a2faa723320f0403bee710c6d3eaf23c58001d",
     "blockNumber": 9223655
+  },
+  {
+    "timestamp": "2025-02-19T15:04:19.000Z",
+    "from": "0x9f2B8dB4a29d79732188e9c78666d57A110fB559",
+    "amount": "100000.0",
+    "acummulatedAmount": "2881263.908779737594960199",
+    "transactionHash": "0xd51bb8f3b5b3d893a604c02210cf247f2ff6a96e87ae7b74cb16d1f4a9512365",
+    "blockNumber": 9229100
   }
 ]
