@@ -295,5 +295,14 @@
     "transactionHash": "0x360f704c727bfa161dfc7e4f7226116912cc4b2b87a5384c4729dd7e02d78539",
     "blockNumber": 11196367,
     "logIndex": 8
+  },
+  {
+    "timestamp": "2025-03-14T09:39:37.000Z",
+    "eventType": "Deposit",
+    "amount": "13403.0",
+    "accumulatedStakes": "6064863.0",
+    "transactionHash": "0xf1a502c5fae2b8f2184b410c2927ad9e60eddc0d9081b2f4593d368e2dd118a9",
+    "blockNumber": 11196818,
+    "logIndex": 3
   }
 ]
