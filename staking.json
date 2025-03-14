@@ -286,5 +286,14 @@
     "transactionHash": "0x24eaf4de640c0863dc147585b9a97415d24dbedebffe10edc5f997023e8fe1ff",
     "blockNumber": 11032111,
     "logIndex": 15
+  },
+  {
+    "timestamp": "2025-03-14T09:32:06.000Z",
+    "eventType": "Withdraw",
+    "amount": "13403.0",
+    "accumulatedStakes": "6051460.0",
+    "transactionHash": "0x360f704c727bfa161dfc7e4f7226116912cc4b2b87a5384c4729dd7e02d78539",
+    "blockNumber": 11196367,
+    "logIndex": 8
   }
 ]
