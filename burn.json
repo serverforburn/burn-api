@@ -1097,5 +1097,12 @@
     "accumulatedBurn": "8504711.00000000000000002",
     "transactionHash": "0x51c4f46d602ba7a0cb8e0300052ebc0c61425b10373d5ae80ce58cbdcf62086a",
     "blockNumber": 15646903
+  },
+  {
+    "timestamp": "2025-05-22T12:58:34.000Z",
+    "burnedAmount": "37500.0",
+    "accumulatedBurn": "8542211.00000000000000002",
+    "transactionHash": "0x14b680e7c92822d6fb3685b589611ecfb170d3f470742940b58975e3104eafb8",
+    "blockNumber": 17170355
   }
 ]
